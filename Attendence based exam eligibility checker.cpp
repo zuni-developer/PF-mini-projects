@@ -1,13 +1,3 @@
-/*A student will not be allowed to sit in exam if his/her attendence is less than 75%.
-Take following input from user
-Number of classes held
-Number of classes attended.
-And print
-percentage of class attended
-Is student is allowed to sit in exam or not.
-Allow student to sit if he/she has medical cause.
-Ask user if he/she has medical cause or not ( 'Y' or 'N' ) and print accordingly.*/
-
 #include <iostream>
 using namespace std;
 int main() {
@@ -16,7 +6,7 @@ int main() {
     double attendance;
     double percentage;
     string subject;
-    // Input
+    // Inputs
     cout << "Enter your subject name: ";
     cin >> subject;
     cout << "Enter the total number of classes held: ";
